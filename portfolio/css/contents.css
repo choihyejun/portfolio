@@ -32,15 +32,24 @@
 }
 .cnt_txt ul {
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .cnt_txt ul li {
     font-size: 22px;
     color: #1D1D1D;
     padding-bottom: 10px;
     position: relative;
+}
+.cnt_txt ul li::after {
+    content: "";
+    position: absolute;
+    right: -23px;
+    top: 5px;
+    width: 1px;
+    height: 11px;
+    background-color: rgba(29, 29, 29, 0.7);
 }
 .cnt_txt ul li strong {
     padding-left: 20px;
