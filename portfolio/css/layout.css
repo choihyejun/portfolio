@@ -33,7 +33,9 @@ header .nav ul li {
 header .nav ul li.nav_on {
     font-weight: 800;
 }
-
+header .nav ul li a:hover {
+    font-weight: 800;
+}
 
 @media screen and (max-width:1820px){
     header {

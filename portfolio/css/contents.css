@@ -114,6 +114,13 @@
     background-position: center center;
     background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.2406 1.90621L1.76042 1.90649L1.73563 0.735445H15.2061L15.2061 14.206L14.0351 14.1812L14.046 2.7116L2.14362 14.6139L1.33823 13.8086L13.2406 1.90621Z' fill='%231D1D1D' stroke='black'/%3E%3C/svg%3E%0A");
 }
+.cnt_list .cnt_butn:hover {
+    background-color: #1d1d1d;
+    color: #fff;  
+}
+.cnt_list .cnt_butn:hover::after {
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.2406 1.90621L1.76042 1.90649L1.73563 0.735445L15.2061 0.735445L15.2061 14.206L14.0351 14.1812L14.046 2.7116L2.14362 14.6139L1.33823 13.8086L13.2406 1.90621Z' fill='white' stroke='white'/%3E%3C/svg%3E%0A");
+}
 .cnt_info .info_bg {
     display: flex;
     flex-direction: row;
