@@ -4,8 +4,6 @@
 */
 
 header {
-    width: 1700px;
-    margin: 0 auto;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -37,7 +35,6 @@ header .nav ul li a:hover {
 @media screen and (max-width:1820px){
     header {
         height: 97px;
-        padding: 0 60px;
     }
 
 }
