@@ -336,9 +336,7 @@ footer .wrapper .copyright {
     text-align: center;
 }
 @media screen and (max-width:1820px){
-    footer {
-        padding: 90px 0 0 0;
-    }
+ 
     footer .wrapper .f_tit {
         padding: 30px 0;
         font-size: 250px;
