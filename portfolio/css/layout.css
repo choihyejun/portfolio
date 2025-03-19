@@ -27,9 +27,11 @@ header .nav ul li {
 }
 header .nav ul li.nav_on {
     font-weight: 800;
+    color: #1d1d1d;
 }
 header .nav ul li a:hover {
     font-weight: 800;
+    color: #1d1d1d;
 }
 
 @media screen and (max-width:1820px){

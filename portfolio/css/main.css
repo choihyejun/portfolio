@@ -9,17 +9,17 @@
 @import url(layout.css); 
 @import url(contents.css); 
 
-.visual_fit .tit h2 {
+.visual_tit h2 {
     color: #1d1d1d;
     font-family: 'Boska-Bold';
     font-size: 275px;
     text-align: center;
     border-top: 1px solid #8E8E8E;
 }
-.visual_fit .tit .photo {
+.visual_tit .photo {
     height: 600px;
 }
-.visual_fit .tit .photo img {
+.visual_tit .photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
