@@ -1,0 +1,43 @@
+/*
+ * layout.css
+ * header/footer 모든 페이지의 공통 스타일 적용
+*/
+
+header {
+    width: 1700px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+header .logo a {
+    display: block;
+}
+header .logo img{
+    width: 90px;
+    height: 75px;
+}
+header .nav ul {
+    display: flex;
+}
+header .nav ul li {
+    width: 218px;
+    text-align: center;
+    font-size: 22px;
+}
+header .nav ul li.nav_on {
+    font-weight: 800;
+}
+header .nav ul li a:hover {
+    font-weight: 800;
+}
+
+@media screen and (max-width:1820px){
+    header {
+        height: 97px;
+        padding: 0 60px;
+    }
+
+}
